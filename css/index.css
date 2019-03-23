@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+/* begin header */
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.main-photo {
+    margin: 20px;
+}
+
+/* end header */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +140,51 @@ p {
     justify-content: center;
 }
 
+/* box colors  */
+
+.boxes .box:nth-child(1) {
+    background:teal;
+}
+
+.boxes .box:nth-child(2) {
+    background:gold;
+}
+
+.boxes .box:nth-child(3) {
+    background:cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background:coral;
+}
+
+.boxes .box:nth-child(5) {
+    background:crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background:forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background:darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background:hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background:indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background:dodgerblue;
+}
+
+
+/* end box colors */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +216,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about css */
+
+.about-text {
+    width: 100%;
+    padding: 20px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.all-cards {
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.card-image {
+    padding-bottom: 20px;
 }
